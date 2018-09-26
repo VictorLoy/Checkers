@@ -1,5 +1,7 @@
 # Checkers
 
+https://www.hackerrank.com/challenges/checkers?hr_b=1       
+
 Checkers or Draughts is a popular 2 player board game where the opponent discs are captured by jumping over them. The objective of the game is to capture as many discs of the opponent as possible or if the opponent has no valid moves left to make.
 
 The game takes place on an 8 * 8 chess board as shown below.
@@ -45,40 +47,40 @@ H lines follow each line indicating the new position to which the disc has hoppe
 
 Sample Input: Non-Capturing
 
-b
-8
-_______W
-b_______
-___b____
-________
-_w______
-w_____w_
-_______b
-w_____w_
-Sample Output: Non-Capturing
+b   
+8     
+_______W   
+b_______   
+___b____   
+________   
+_w______   
+w_____w_   
+_______b   
+w_____w_   
+   Sample Output: Non-Capturing.  
 
-1
-1 0
-2 1
+1   
+1 0   
+2 1   
 Explanation: Non-Capturing
 
 It is black's turn. A black disc is moved from 1 0 to 2 1.
 
 Sample Input: Capturing
 
-w
-8
-________
-b_b_b_b_
-___b____
-__b_____
-_w______
-w_b___w_
-_w_____b
-w_____w_
-Sample Output: Capturing
+w   
+8    
+________   
+b_b_b_b_   
+___b____   
+__b_____   
+_w______   
+w_b___w_   
+_w_____b   
+w_____w_   
+   Sample Output: Capturing.  
 
-5
+5  
 6 1
 4 3
 2 1
